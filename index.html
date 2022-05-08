@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/link-solid.svg" type="image/x-icon" />
+    <title>Chain App Dev</title>
+    <script
+      src="https://kit.fontawesome.com/89b1457043.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="phone.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="nav">
+        <div class="navbar">
+          <div class="header d-flex">
+            <div class="navbar-img">
+              <img src="img/logo.png" alt="Error" class="navbar-logo" />
+            </div>
+            <div class="navbar-navigation">
+              <ul class="d-flex">
+                <li class="navbar-li">
+                  <a href="#" class="navbar-btns active">Home</a>
+                </li>
+                <li class="navbar-li">
+                  <a href="#" class="navbar-btns">Services</a>
+                </li>
+                <li class="navbar-li">
+                  <a href="#" class="navbar-btns">About</a>
+                </li>
+                <li class="navbar-li">
+                  <a href="#" class="navbar-btns">Pricing</a>
+                </li>
+                <li class="navbar-li">
+                  <a href="#" class="navbar-btns">Newsletter</a>
+                </li>
+                <li class="navbar-li">
+                  <a href="#" class="navbar-btns sign-btn">
+                    <span class="nav-icon">
+                      <i class="fa-solid fa-right-to-bracket"></i>
+                    </span>
+                    Sign In Now</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="smallScreen-menu">
+              <div class="hamburger">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+              </div>
+              <div class="menu">
+                <ul class="menu-ul">
+                  <li class="menu-li">
+                    <a href="#" class="menu-btns active">Home</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="#" class="menu-btns">Services</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="#" class="menu-btns">About</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="#" class="menu-btns">Pricing</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="#" class="menu-btns">Newsletter</a>
+                  </li>
+                  <li class="menu-li">
+                    <a href="#" class="menu-btns menu-sign-btn">
+                      <span class="nav-icon">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                      </span>
+                      Sign In Now</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+
+      <!-- ---- Sign In / Sign up ---- -->
+
+      <div class="user-main">
+        <div class="user visibility-none">
+          <!-- User detail for making Account -->
+          <div class="client-account">
+            <div class="d-flex s-header">
+              <span class="account-type">LOGIN</span>
+              <span class="login-close-btn">
+                <i class="fa-solid fa-xmark"></i>
+              </span>
+            </div>
+            <ul class="login-signup">
+              <li class="login-with">
+                <a href="#" class="login-anchor">
+                  <span class="login-icons f-user-icon">
+                    <i class="fa-brands fa-facebook-square"></i>
+                  </span>
+                  <span class="connect-with-para">Connect with Facebook</span>
+                </a>
+              </li>
+              <li class="login-with">
+                <a href="#" class="login-anchor">
+                  <span class="login-icons g-user-icon">
+                    <i class="fa-brands fa-google-plus"></i>
+                  </span>
+                  <span class="connect-with-para">Connect with Google</span>
+                </a>
+              </li>
+              <li class="login-with">
+                <p class="login-hint">Or Use Your Email Address</p>
+              </li>
+              <li class="login-with login-btn-div">
+                <a href="#" id="Login-1" class="login-btn user-choice-btn"
+                  >Login</a
+                >
+                <a href="#" id="Signup-1" class="signup-btn user-choice-btn"
+                  >Sign up</a
+                >
+              </li>
+            </ul>
+            <!-- ----  Log In Page  ---- -->
+            <ul class="login d-none">
+              <form class="login-form">
+                <label for="" class="form-label">Email / Username</label>
+                <input type="email" name="" id="email" class="login-input" />
+                <label for="" class="form-label">Password</label>
+                <input
+                  type="password"
+                  name=""
+                  id="password"
+                  class="login-input"
+                />
+                <div class="checkbox">
+                  <input type="checkbox" name="" id="checkbox" />
+                  <label for="checkbox" class="login-remember"
+                    >Remember me on this computer</label
+                  >
+                </div>
+                <div class="login-with login-btn-div" style="padding: 0">
+                  <a href="#" class="login-btn user-choice-btn backBtn">
+                    <i
+                      class="fa-solid fa-angles-left"
+                      style="margin-right: 5px"
+                    ></i
+                    >Back
+                  </a>
+                  <a href="#" class="signup-btn user-choice-btn">Login</a>
+                </div>
+                <p class="forgot-password">Forgot password?</p>
+              </form>
+            </ul>
+            <!-- ----  Sign Up Page  ---- -->
+            <ul class="signup d-none">
+              <form class="login-form">
+                <!--  -->
+                <label for="" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  name=""
+                  id="name"
+                  class="login-input signup-inputs"
+                />
+                <!--  -->
+                <label for="" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  name=""
+                  id="email"
+                  class="login-input signup-inputs"
+                />
+                <!--  -->
+                <label for="" class="form-label">Password</label>
+                <input
+                  type="password"
+                  name=""
+                  id="password"
+                  class="login-input signup-inputs"
+                />
+                <!--  -->
+                <div class="checkbox">
+                  <input type="checkbox" name="" id="checkbox2" />
+                  <label for="checkbox2" class="login-remember"
+                    >Send me occasional email updates</label
+                  >
+                </div>
+                <div class="login-with login-btn-div" style="padding: 0">
+                  <a href="#" class="login-btn user-choice-btn backBtn">
+                    <i
+                      class="fa-solid fa-angles-left"
+                      style="margin-right: 5px"
+                    ></i
+                    >Back
+                  </a>
+                  <a href="#" class="signup-btn user-choice-btn">Login</a>
+                </div>
+              </form>
+            </ul>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ----- ----- Java Script  ----- ----- -->
+
+    <script src="chain.js"></script>
+  </body>
+</html>

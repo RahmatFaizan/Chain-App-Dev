@@ -1,0 +1,70 @@
+/*  */
+
+@media only screen and (max-width: 1150px) {
+  .navbar-img {
+    margin: 1px 0 0 0px;
+  }
+
+  .header {
+    width: 960px;
+  }
+}
+
+/* ---------- ------------ ------------- --------- */
+
+@media only screen and (max-width: 990px) {
+  .header {
+    justify-content: center;
+  }
+
+  .navbar-btns {
+    margin: 0 14px;
+  }
+
+  .sign-btn {
+    margin: 0px 10px 0 18px;
+  }
+
+  .navbar-img {
+    margin: 1px 20px 0 -5px;
+  }
+
+  .header {
+    width: 100%;
+  }
+}
+
+/*  --------- --------- ---------- --------- */
+
+@media only screen and (max-width: 760px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .navbar-img {
+    width: calc(32% - 10px);
+    text-align: end;
+  }
+
+  .navbar-logo {
+    margin-left: 50px;
+  }
+
+  .hamburger {
+    margin-right: 42px;
+  }
+
+  .navbar-navigation {
+    display: none;
+  }
+
+  .smallScreen-menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .menu-ul {
+    min-width: 100%;
+  }
+}
