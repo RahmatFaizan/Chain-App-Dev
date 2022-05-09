@@ -39,7 +39,7 @@
                   <a href="#" class="navbar-btns">Newsletter</a>
                 </li>
                 <li class="navbar-li">
-                  <a href="#" class="navbar-btns sign-btn">
+                  <a href="#" class="navbar-btns sign-btn signInNow">
                     <span class="nav-icon">
                       <i class="fa-solid fa-right-to-bracket"></i>
                     </span>
@@ -48,6 +48,9 @@
                 </li>
               </ul>
             </div>
+
+            <!-- --- Small screen Navbar --- -->
+
             <div class="smallScreen-menu">
               <div class="hamburger">
                 <span class="line line-1"></span>
@@ -72,7 +75,7 @@
                     <a href="#" class="menu-btns">Newsletter</a>
                   </li>
                   <li class="menu-li">
-                    <a href="#" class="menu-btns menu-sign-btn">
+                    <a href="#" class="menu-btns menu-sign-btn signInNow">
                       <span class="nav-icon">
                         <i class="fa-solid fa-right-to-bracket"></i>
                       </span>
@@ -89,126 +92,128 @@
 
       <!-- ---- Sign In / Sign up ---- -->
 
-      <div class="user-main">
-        <div class="user visibility-none">
-          <!-- User detail for making Account -->
-          <div class="client-account">
-            <div class="d-flex s-header">
-              <span class="account-type">LOGIN</span>
-              <span class="login-close-btn">
-                <i class="fa-solid fa-xmark"></i>
-              </span>
-            </div>
-            <ul class="login-signup">
-              <li class="login-with">
-                <a href="#" class="login-anchor">
-                  <span class="login-icons f-user-icon">
-                    <i class="fa-brands fa-facebook-square"></i>
-                  </span>
-                  <span class="connect-with-para">Connect with Facebook</span>
-                </a>
-              </li>
-              <li class="login-with">
-                <a href="#" class="login-anchor">
-                  <span class="login-icons g-user-icon">
-                    <i class="fa-brands fa-google-plus"></i>
-                  </span>
-                  <span class="connect-with-para">Connect with Google</span>
-                </a>
-              </li>
-              <li class="login-with">
-                <p class="login-hint">Or Use Your Email Address</p>
-              </li>
-              <li class="login-with login-btn-div">
-                <a href="#" id="Login-1" class="login-btn user-choice-btn"
-                  >Login</a
-                >
-                <a href="#" id="Signup-1" class="signup-btn user-choice-btn"
-                  >Sign up</a
-                >
-              </li>
-            </ul>
-            <!-- ----  Log In Page  ---- -->
-            <ul class="login d-none">
-              <form class="login-form">
-                <label for="" class="form-label">Email / Username</label>
-                <input type="email" name="" id="email" class="login-input" />
-                <label for="" class="form-label">Password</label>
-                <input
-                  type="password"
-                  name=""
-                  id="password"
-                  class="login-input"
-                />
-                <div class="checkbox">
-                  <input type="checkbox" name="" id="checkbox" />
-                  <label for="checkbox" class="login-remember"
-                    >Remember me on this computer</label
-                  >
-                </div>
-                <div class="login-with login-btn-div" style="padding: 0">
-                  <a href="#" class="login-btn user-choice-btn backBtn">
-                    <i
-                      class="fa-solid fa-angles-left"
-                      style="margin-right: 5px"
-                    ></i
-                    >Back
-                  </a>
-                  <a href="#" class="signup-btn user-choice-btn">Login</a>
-                </div>
-                <p class="forgot-password">Forgot password?</p>
-              </form>
-            </ul>
-            <!-- ----  Sign Up Page  ---- -->
-            <ul class="signup d-none">
-              <form class="login-form">
-                <!--  -->
-                <label for="" class="form-label">Full Name</label>
-                <input
-                  type="text"
-                  name=""
-                  id="name"
-                  class="login-input signup-inputs"
-                />
-                <!--  -->
-                <label for="" class="form-label">Email Address</label>
-                <input
-                  type="email"
-                  name=""
-                  id="email"
-                  class="login-input signup-inputs"
-                />
-                <!--  -->
-                <label for="" class="form-label">Password</label>
-                <input
-                  type="password"
-                  name=""
-                  id="password"
-                  class="login-input signup-inputs"
-                />
-                <!--  -->
-                <div class="checkbox">
-                  <input type="checkbox" name="" id="checkbox2" />
-                  <label for="checkbox2" class="login-remember"
-                    >Send me occasional email updates</label
-                  >
-                </div>
-                <div class="login-with login-btn-div" style="padding: 0">
-                  <a href="#" class="login-btn user-choice-btn backBtn">
-                    <i
-                      class="fa-solid fa-angles-left"
-                      style="margin-right: 5px"
-                    ></i
-                    >Back
-                  </a>
-                  <a href="#" class="signup-btn user-choice-btn">Login</a>
-                </div>
-              </form>
-            </ul>
-            <!--  -->
+      <div class="user visibility-none">
+        <!-- User detail for making Account -->
+        <div class="client-account">
+          <div class="d-flex s-header">
+            <span class="account-type">LOGIN</span>
+            <span class="login-close-btn">
+              <i class="fa-solid fa-xmark"></i>
+            </span>
           </div>
+          <ul class="login-signup">
+            <li class="login-with">
+              <a href="#" class="login-anchor">
+                <span class="login-icons f-user-icon">
+                  <i class="fa-brands fa-facebook-square"></i>
+                </span>
+                <span class="connect-with-para">Connect with Facebook</span>
+              </a>
+            </li>
+            <li class="login-with">
+              <a href="#" class="login-anchor">
+                <span class="login-icons g-user-icon">
+                  <i class="fa-brands fa-google-plus"></i>
+                </span>
+                <span class="connect-with-para">Connect with Google</span>
+              </a>
+            </li>
+            <li class="login-with">
+              <p class="login-hint">Or Use Your Email Address</p>
+            </li>
+            <li class="login-with login-btn-div">
+              <a href="#" id="Login-1" class="login-btn user-choice-btn"
+                >Login</a
+              >
+              <a href="#" id="Signup-1" class="signup-btn user-choice-btn"
+                >Sign up</a
+              >
+            </li>
+          </ul>
+          <!-- ----  Log In Page  ---- -->
+          <ul class="login d-none">
+            <form class="login-form">
+              <label for="" class="form-label">Email / Username</label>
+              <input type="email" name="" id="email" class="login-input" />
+              <label for="" class="form-label">Password</label>
+              <input
+                type="password"
+                name=""
+                id="password"
+                class="login-input"
+              />
+              <div class="checkbox">
+                <input type="checkbox" name="" id="checkbox" />
+                <label for="checkbox" class="login-remember"
+                  >Remember me on this computer</label
+                >
+              </div>
+              <div class="login-with login-btn-div" style="padding: 0">
+                <a href="#" class="login-btn user-choice-btn backBtn">
+                  <i
+                    class="fa-solid fa-angles-left"
+                    style="margin-right: 5px"
+                  ></i
+                  >Back
+                </a>
+                <a href="#" class="signup-btn user-choice-btn">Login</a>
+              </div>
+              <p class="forgot-password">Forgot password?</p>
+            </form>
+          </ul>
+          <!-- ----  Sign Up Page  ---- -->
+          <ul class="signup d-none">
+            <form class="login-form">
+              <!--  -->
+              <label for="" class="form-label">Full Name</label>
+              <input
+                type="text"
+                name=""
+                id="name"
+                class="login-input signup-inputs"
+              />
+              <!--  -->
+              <label for="" class="form-label">Email Address</label>
+              <input
+                type="email"
+                name=""
+                id="email"
+                class="login-input signup-inputs"
+              />
+              <!--  -->
+              <label for="" class="form-label">Password</label>
+              <input
+                type="password"
+                name=""
+                id="password"
+                class="login-input signup-inputs"
+              />
+              <!--  -->
+              <div class="checkbox">
+                <input type="checkbox" name="" id="checkbox2" />
+                <label for="checkbox2" class="login-remember"
+                  >Send me occasional email updates</label
+                >
+              </div>
+              <div class="login-with login-btn-div" style="padding: 0">
+                <a href="#" class="login-btn user-choice-btn backBtn">
+                  <i
+                    class="fa-solid fa-angles-left"
+                    style="margin-right: 5px"
+                  ></i
+                  >Back
+                </a>
+                <a href="#" class="signup-btn user-choice-btn">Login</a>
+              </div>
+            </form>
+          </ul>
+          <!--  -->
         </div>
       </div>
+
+      <!--  -->
+
+      <!--  -->
     </nav>
 
     <!-- ---- --- Section 01 --- ---- -->
@@ -233,13 +238,14 @@
                     style="color: white"
                   ></i
                 ></a>
-                <a class="h-btns"
-                  >Free Quote
+                <a class="h-btns">
+                  Free Quote
                   <i
                     class="fa-brands fa-google-play apple-play"
                     style="color: white"
-                  ></i
-                ></a>
+                  >
+                  </i>
+                </a>
               </div>
             </div>
           </div>
@@ -250,6 +256,87 @@
         </div>
       </div>
     </section>
+
+    <!-- --- Services --- -->
+
+    <section id="services">
+      <div class="services">
+        <div class="services-pic">
+          <img src="img/services-right-dec.png" alt="" class="services-img" />
+        </div>
+        <!--  -->
+        <div class="services-detail">
+          <h1 class="service-heading">
+            Amazing <span>Services & Features</span> For You
+          </h1>
+          <p align="center" style="margin-top: 8px">
+            <span class="service-heading-underline"></span>
+            <span class="service-heading-underline"></span>
+          </p>
+
+          <p class="service-para para">
+            If you need the greatest collection of HTML templates for your
+            business, please visit <a href="#"> TooCSS</a> Blog. If you need to
+            have a contact form PHP script, go to
+            <a href="#"> our contact page</a> for more information.
+          </p>
+        </div>
+        <!--  -->
+        <div class="card">
+          <!-- ---- --- Card - 1 --- ---- -->
+          <div class="service-card service-card-1">
+            <div class="service-icon-1 service-card-icon"></div>
+            <h1 class="card-heading">App Maintenance</h1>
+            <p class="card-para para">
+              You are not allowed to redistribute this template ZIP file on any
+              other website
+            </p>
+            <a href="#" class="readmore">
+              Read More <i class="fa-solid fa-arrow-right readmore-icon"></i>
+            </a>
+          </div>
+          <!-- ---- --- Card - 2 --- ---- -->
+          <div class="service-card service-card-2">
+            <div class="service-icon-2 service-card-icon"></div>
+            <h1 class="card-heading">Rocket Speed of App</h1>
+            <p class="card-para para">
+              You are allowed to use the Chain App Dev HTML template. Feel free
+              to modify or edit this layout.
+            </p>
+            <a href="#" class="readmore">
+              Read More <i class="fa-solid fa-arrow-right readmore-icon"></i>
+            </a>
+          </div>
+          <!-- ---- --- Card - 3 --- ---- -->
+          <div class="service-card service-card-3">
+            <div class="service-icon-3 service-card-icon"></div>
+            <h1 class="card-heading">Multi Workflow Idea</h1>
+            <p class="card-para para">
+              If this template is beneficial for your work, please support us a
+              little via PayPal. Thank you.
+            </p>
+            <a href="#" class="readmore">
+              Read More <i class="fa-solid fa-arrow-right readmore-icon"></i>
+            </a>
+          </div>
+          <!-- ---- --- Card - 4 --- ---- -->
+          <div class="service-card service-card-4">
+            <div class="service-icon-4 service-card-icon"></div>
+            <h1 class="card-heading">24/7 Help & Support</h1>
+            <p class="card-para para">
+              Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg
+              photo booth quinoa and fashion axe.
+            </p>
+            <a href="#" class="readmore">
+              Read More <i class="fa-solid fa-arrow-right readmore-icon"></i>
+            </a>
+          </div>
+          <!-- End -->
+        </div>
+      </div>
+    </section>
+
+    <!-- --- End --- -->
 
     <!-- ----- ----- Java Script  ----- ----- -->
 

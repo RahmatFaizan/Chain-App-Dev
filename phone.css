@@ -19,6 +19,7 @@
     .get {
       display: block;
       padding-top: 225px;
+      height: auto;
     }
 
     .store {
@@ -35,10 +36,58 @@
       padding: 0 15px;
       text-align: center;
     }
+
+    .home-para {
+      color: rgba(0, 0, 0, 0.35);
+    }
+
     .home-img {
       display: block;
       margin: 40px auto 0 auto;
       width: 70%;
+    }
+    /* ----  --- Card ---  ---- */
+    .card {
+      display: block;
+    }
+
+    .service-card {
+      width: 700px;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    .service-card:hover {
+      background-position: top, right;
+    }
+
+    .service-card:hover
+      :is(.service-icon-1, .service-icon-2, .service-icon-3, .service-icon-4) {
+      background-position: center;
+    }
+
+    .service-card-icon {
+      background-position: center;
+    }
+
+    .card::after {
+      bottom: -38px;
+      left: 15px;
+    }
+
+    .card::before {
+      bottom: -70px;
+      left: 54px;
+    }
+
+    /* ---- --- Services --- ---- */
+
+    .services-detail {
+      width: 98%;
+    }
+
+    .service-para {
+      width: 50%;
     }
   }
 }
@@ -63,7 +112,7 @@
   }
 
   .header {
-    width: 98%;
+    width: 95%;
   }
 }
 
@@ -93,6 +142,24 @@
 
   .smallScreen-menu {
     display: block;
+  }
+
+  /* Card */
+  .service-card {
+    width: 460px;
+  }
+
+  .service-card:hover
+    :is(.service-icon-1, .service-icon-2, .service-icon-3, .service-icon-4) {
+    background-position: right;
+  }
+
+  .service-card-icon {
+    background-position: right;
+  }
+
+  .service-para {
+    width: 65%;
   }
 }
 
@@ -132,5 +199,27 @@
 
   .h-btns {
     margin: 12px 0px 0 0;
+  }
+
+  .home-img {
+    width: 95%;
+  }
+
+  .card {
+    padding: 0 12px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .client-account {
+      transform: translate(-50%, 1px);
+      width: 300px;
+    }
+    .services-pic {
+      padding: 60px;
+    }
   }
 }

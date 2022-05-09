@@ -33,7 +33,7 @@ hamburger.addEventListener("click", () => {
 /* ---- --- Sign in Now ---  ----*/
 
 let user = document.querySelector(".user");
-let signInNowBtn = document.querySelector(".sign-btn");
+let signInNowBtn = document.querySelectorAll(".signInNow");
 let loginClosebtn = document.querySelectorAll(".login-close-btn");
 let Loginbtn1 = document.getElementById("Login-1");
 let Signupbtn1 = document.getElementById("Signup-1");
@@ -42,8 +42,10 @@ let accountType = document.querySelector(".account-type");
 
 //
 
-signInNowBtn.addEventListener("click", () => {
-  user.classList.add("visibile");
+signInNowBtn.forEach((e) => {
+  e.addEventListener("click", () => {
+    user.classList.add("visibile");
+  });
 });
 
 //
