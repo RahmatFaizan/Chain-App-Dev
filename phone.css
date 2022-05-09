@@ -71,13 +71,7 @@
     }
 
     .card::after {
-      bottom: -38px;
-      left: 15px;
-    }
-
-    .card::before {
-      bottom: -70px;
-      left: 54px;
+      bottom: -335px;
     }
 
     /* ---- --- Services --- ---- */
@@ -88,6 +82,9 @@
 
     .service-para {
       width: 50%;
+    }
+    .detail {
+      padding: 10px 15px 50px 15px;
     }
   }
 }
@@ -113,6 +110,48 @@
 
   .header {
     width: 95%;
+  }
+
+  /* ---- --- About --- ---- */
+
+  .about-us {
+    display: block;
+  }
+
+  .about-detail {
+    width: 100%;
+  }
+
+  .about-pic {
+    width: 100%;
+  }
+
+  .about-us::before {
+    display: none;
+  }
+
+  .detail {
+    width: 722px;
+    margin: 0 auto;
+    padding: 10px 20px 50px 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .maintance {
+    margin: 35px 0 25px 0;
+    display: block;
+  }
+
+  .co-development {
+    width: 679px;
+    margin: 30px auto;
+  }
+
+  .about-img {
+    width: calc(74% - 10px);
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -160,6 +199,17 @@
 
   .service-para {
     width: 65%;
+  }
+
+  /* ---- --- About --- ---- */
+
+  .co-development {
+    width: 515px;
+  }
+
+  .detail {
+    width: 530px;
+    padding: 10px 0px 50px 0px;
   }
 }
 
@@ -210,6 +260,16 @@
   }
 
   .service-card {
+    width: 100%;
+  }
+
+  /* ---- --- About --- ---- */
+  .detail {
+    width: 100%;
+    padding: 10px 15px 50px 15px;
+  }
+
+  .co-development {
     width: 100%;
   }
 
