@@ -704,3 +704,268 @@
   transform: translateY(-50%);
   z-index: -1;
 }
+
+/* ---- --- Pricing Card --- ---- */
+
+.pricing-plan-choice {
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.pricing-detail {
+  display: inline-block;
+  width: 355px;
+  height: 640px;
+  box-shadow: 0 0 10px 0.5px rgb(0 0 0 / 5%);
+  padding: 40px 35px;
+  box-sizing: border-box;
+  margin: 0 12px;
+  border-radius: 40px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.pricing-detail-2 {
+  height: 700px;
+}
+
+/* Pricing Plan Card Before & After */
+
+.pricing-detail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 252px;
+  background: url(img/regular-table-top.png) no-repeat;
+  background-size: contain;
+  z-index: -12;
+}
+
+.pricing-detail-2::before {
+  width: 100%;
+  background: url(img/pro-table-top.png) no-repeat;
+}
+
+.pricing-detail::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 362px;
+  height: 26%;
+  background: url(img/regular-table-bottom.png) no-repeat;
+  z-index: -12;
+}
+
+.pricing-detail-2::after {
+  height: 28%;
+  background: url(img/pro-table-bottom.png) no-repeat;
+}
+
+/* Pricing Inner Content */
+
+.order-detail {
+  width: 60%;
+}
+
+.price {
+  text-align: left;
+  font-size: 37px;
+  color: white;
+  font-weight: bold;
+}
+
+.plan-title {
+  font-size: 20px;
+  margin: 8px 0 18px 0;
+}
+
+.pricing-detail-2 .plan-title {
+  margin-top: 35px;
+}
+
+.plan-img {
+  margin: 12px 0;
+}
+
+.plan-para {
+  color: #4b8ef1;
+  margin: 16px 0;
+  font-size: 15px;
+}
+
+.p-add-ons,
+.fast-network,
+.more-option {
+  margin: 19px 0;
+}
+
+.exclude-from-plan {
+  color: rgba(0, 0, 0, 30%);
+  text-decoration-line: line-through;
+}
+
+.purchase-plan-btn {
+  display: inline-block;
+  padding: 11px 18px;
+  border: 1px solid #4b8ef1;
+  border-radius: 20px;
+  color: #4b8ef1;
+  margin: 25px 0;
+  transition: 0.4s;
+  background-color: #fff;
+}
+
+.purchase-plan-btn:hover {
+  color: #fff;
+  background-color: #4b8ef1;
+}
+
+/* ---- --- Footer --- ---- */
+#footer {
+  position: relative;
+}
+
+#footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(img/footer-bg.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.footer {
+  padding-top: 300px;
+  margin-top: 150px;
+}
+
+/* --- Mail contact --- */
+
+.mail-contact {
+  width: 100%;
+  text-align: center;
+}
+
+.mail-contact-heading {
+  width: 520px;
+  font-size: 30px;
+  line-height: 46px;
+  margin: 0 auto;
+}
+
+.footer-form {
+  margin: 40px 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#footer-email {
+  border: none;
+  outline: none;
+  width: 250px;
+  border-bottom: 1px solid black;
+  padding: 10px 5px;
+  font-size: 15px;
+  margin: 0 30px;
+  background: transparent;
+}
+
+.footer-form button[type="submit"] {
+  padding: 12px 70px;
+  border-radius: 30px;
+  border: 1px solid;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.footer-form button[type="submit"]:hover {
+  background-color: #fff;
+  color: rgb(16, 16, 17);
+}
+
+/*  */
+
+.footer-detail {
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.footer-page {
+  flex-direction: column;
+  width: 260px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.footer-anchor {
+  display: inline-block;
+  font-size: 15px;
+  color: black;
+  margin: 12px 0;
+}
+
+.footer-contact-us {
+  width: 285px;
+}
+
+.footer-about-us,
+.footer-usefull-link {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+:is(.footer-about-us, .footer-usefull-link) .footer-anchor {
+  margin: 8px 0;
+}
+
+:is(.footer-about-us, .footer-usefull-link) div {
+  display: flex;
+  flex-direction: column;
+}
+
+:is(.footer-about-us, .footer-usefull-link) div {
+  margin: 0 8px;
+}
+
+.footer-logo {
+  margin: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+  padding: 80px 0;
+  font-size: 15px;
+}
+
+.mail-contact-heading,
+#footer-email,
+#footer-email::placeholder,
+.footer-form button[type="submit"],
+.contact-title,
+.footer-anchor,
+.f-about-company-txt,
+.copyright {
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer-anchor:hover {
+  color: #eee;
+}

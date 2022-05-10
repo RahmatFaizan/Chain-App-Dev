@@ -153,6 +153,28 @@
     display: block;
     margin: 0 auto;
   }
+
+  /* ---- --- Pricing Section --- ---- */
+
+  .order-detail {
+    margin-top: 80px;
+  }
+
+  .pricing-plan-choice {
+    display: block;
+  }
+
+  .pricing-detail {
+    display: block;
+    width: 700px;
+    margin: 30px auto;
+  }
+
+  .pricing-detail-2::after {
+    height: 25%;
+    width: 440px;
+    background-size: cover;
+  }
 }
 
 /*  --------- --------- ---------- --------- */
@@ -210,6 +232,20 @@
   .detail {
     width: 530px;
     padding: 10px 0px 50px 0px;
+  }
+
+  /* --- Pricing  --- */
+
+  .pricing-plan-choice {
+    padding: 0 12px;
+  }
+
+  .pricing-detail {
+    width: 515px;
+  }
+
+  .order-heading {
+    padding: 0 12px;
   }
 }
 
@@ -272,6 +308,15 @@
   .co-development {
     width: 100%;
   }
+
+  /* --- Pricing --- */
+
+  .pricing-detail {
+    width: 100%;
+  }
+
+  /* 
+   */
 
   @media only screen and (max-width: 400px) {
     .client-account {
