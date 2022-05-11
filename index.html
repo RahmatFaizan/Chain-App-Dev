@@ -24,19 +24,19 @@
             <div class="navbar-navigation">
               <ul class="d-flex">
                 <li class="navbar-li">
-                  <a href="#" class="navbar-btns active">Home</a>
+                  <a href="#home" class="navbar-btns active">Home</a>
                 </li>
                 <li class="navbar-li">
-                  <a href="#" class="navbar-btns">Services</a>
+                  <a href="#services" class="navbar-btns">Services</a>
                 </li>
                 <li class="navbar-li">
-                  <a href="#" class="navbar-btns">About</a>
+                  <a href="#about" class="navbar-btns">About</a>
                 </li>
                 <li class="navbar-li">
-                  <a href="#" class="navbar-btns">Pricing</a>
+                  <a href="#pricing" class="navbar-btns">Pricing</a>
                 </li>
                 <li class="navbar-li">
-                  <a href="#" class="navbar-btns">Newsletter</a>
+                  <a href="#newsletter" class="navbar-btns">Newsletter</a>
                 </li>
                 <li class="navbar-li">
                   <a href="#" class="navbar-btns sign-btn signInNow">
@@ -60,19 +60,19 @@
               <div class="menu">
                 <ul class="menu-ul">
                   <li class="menu-li">
-                    <a href="#" class="menu-btns active">Home</a>
+                    <a href="#home" class="menu-btns active">Home</a>
                   </li>
                   <li class="menu-li">
-                    <a href="#" class="menu-btns">Services</a>
+                    <a href="#services" class="menu-btns">Services</a>
                   </li>
                   <li class="menu-li">
-                    <a href="#" class="menu-btns">About</a>
+                    <a href="#about" class="menu-btns">About</a>
                   </li>
                   <li class="menu-li">
-                    <a href="#" class="menu-btns">Pricing</a>
+                    <a href="#pricing" class="menu-btns">Pricing</a>
                   </li>
                   <li class="menu-li">
-                    <a href="#" class="menu-btns">Newsletter</a>
+                    <a href="#newsletter" class="menu-btns">Newsletter</a>
                   </li>
                   <li class="menu-li">
                     <a href="#" class="menu-btns menu-sign-btn signInNow">
@@ -87,138 +87,137 @@
             </div>
             <!--  -->
           </div>
-        </div>
-      </div>
+          <!-- ---- Sign In / Sign up ---- -->
 
-      <!-- ---- Sign In / Sign up ---- -->
-
-      <div class="user visibility-none">
-        <!-- User detail for making Account -->
-        <div class="client-account">
-          <div class="d-flex s-header">
-            <span class="account-type">LOGIN</span>
-            <span class="login-close-btn">
-              <i class="fa-solid fa-xmark"></i>
-            </span>
+          <div class="user visibility-none">
+            <!-- User detail for making Account -->
+            <div class="client-account">
+              <div class="d-flex s-header">
+                <span class="account-type">LOGIN</span>
+                <span class="login-close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </span>
+              </div>
+              <ul class="login-signup">
+                <li class="login-with">
+                  <a href="#" class="login-anchor">
+                    <span class="login-icons f-user-icon">
+                      <i class="fa-brands fa-facebook-square"></i>
+                    </span>
+                    <span class="connect-with-para">Connect with Facebook</span>
+                  </a>
+                </li>
+                <li class="login-with">
+                  <a href="#" class="login-anchor">
+                    <span class="login-icons g-user-icon">
+                      <i class="fa-brands fa-google-plus"></i>
+                    </span>
+                    <span class="connect-with-para">Connect with Google</span>
+                  </a>
+                </li>
+                <li class="login-with">
+                  <p class="login-hint">Or Use Your Email Address</p>
+                </li>
+                <li class="login-with login-btn-div">
+                  <a href="#" id="Login-1" class="login-btn user-choice-btn"
+                    >Login</a
+                  >
+                  <a href="#" id="Signup-1" class="signup-btn user-choice-btn"
+                    >Sign up</a
+                  >
+                </li>
+              </ul>
+              <!-- ----  Log In Page  ---- -->
+              <ul class="login d-none">
+                <form class="login-form">
+                  <label for="" class="form-label">Email / Username</label>
+                  <input type="email" name="" id="email" class="login-input" />
+                  <label for="" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    name=""
+                    id="password"
+                    class="login-input"
+                  />
+                  <div class="checkbox">
+                    <input type="checkbox" name="" id="checkbox" />
+                    <label for="checkbox" class="login-remember"
+                      >Remember me on this computer</label
+                    >
+                  </div>
+                  <div class="login-with login-btn-div" style="padding: 0">
+                    <a href="#" class="login-btn user-choice-btn backBtn">
+                      <i
+                        class="fa-solid fa-angles-left"
+                        style="margin-right: 5px"
+                      ></i
+                      >Back
+                    </a>
+                    <a href="#" class="signup-btn user-choice-btn">Login</a>
+                  </div>
+                  <p class="forgot-password">Forgot password?</p>
+                </form>
+              </ul>
+              <!-- ----  Sign Up Page  ---- -->
+              <ul class="signup d-none">
+                <form class="login-form">
+                  <!--  -->
+                  <label for="" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="name"
+                    class="login-input signup-inputs"
+                  />
+                  <!--  -->
+                  <label for="" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    name=""
+                    id="email"
+                    class="login-input signup-inputs"
+                  />
+                  <!--  -->
+                  <label for="" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    name=""
+                    id="password"
+                    class="login-input signup-inputs"
+                  />
+                  <!--  -->
+                  <div class="checkbox">
+                    <input type="checkbox" name="" id="checkbox2" />
+                    <label for="checkbox2" class="login-remember"
+                      >Send me occasional email updates</label
+                    >
+                  </div>
+                  <div class="login-with login-btn-div" style="padding: 0">
+                    <a href="#" class="login-btn user-choice-btn backBtn">
+                      <i
+                        class="fa-solid fa-angles-left"
+                        style="margin-right: 5px"
+                      ></i
+                      >Back
+                    </a>
+                    <a href="#" class="signup-btn user-choice-btn">Login</a>
+                  </div>
+                </form>
+              </ul>
+              <!--  -->
+            </div>
           </div>
-          <ul class="login-signup">
-            <li class="login-with">
-              <a href="#" class="login-anchor">
-                <span class="login-icons f-user-icon">
-                  <i class="fa-brands fa-facebook-square"></i>
-                </span>
-                <span class="connect-with-para">Connect with Facebook</span>
-              </a>
-            </li>
-            <li class="login-with">
-              <a href="#" class="login-anchor">
-                <span class="login-icons g-user-icon">
-                  <i class="fa-brands fa-google-plus"></i>
-                </span>
-                <span class="connect-with-para">Connect with Google</span>
-              </a>
-            </li>
-            <li class="login-with">
-              <p class="login-hint">Or Use Your Email Address</p>
-            </li>
-            <li class="login-with login-btn-div">
-              <a href="#" id="Login-1" class="login-btn user-choice-btn"
-                >Login</a
-              >
-              <a href="#" id="Signup-1" class="signup-btn user-choice-btn"
-                >Sign up</a
-              >
-            </li>
-          </ul>
-          <!-- ----  Log In Page  ---- -->
-          <ul class="login d-none">
-            <form class="login-form">
-              <label for="" class="form-label">Email / Username</label>
-              <input type="email" name="" id="email" class="login-input" />
-              <label for="" class="form-label">Password</label>
-              <input
-                type="password"
-                name=""
-                id="password"
-                class="login-input"
-              />
-              <div class="checkbox">
-                <input type="checkbox" name="" id="checkbox" />
-                <label for="checkbox" class="login-remember"
-                  >Remember me on this computer</label
-                >
-              </div>
-              <div class="login-with login-btn-div" style="padding: 0">
-                <a href="#" class="login-btn user-choice-btn backBtn">
-                  <i
-                    class="fa-solid fa-angles-left"
-                    style="margin-right: 5px"
-                  ></i
-                  >Back
-                </a>
-                <a href="#" class="signup-btn user-choice-btn">Login</a>
-              </div>
-              <p class="forgot-password">Forgot password?</p>
-            </form>
-          </ul>
-          <!-- ----  Sign Up Page  ---- -->
-          <ul class="signup d-none">
-            <form class="login-form">
-              <!--  -->
-              <label for="" class="form-label">Full Name</label>
-              <input
-                type="text"
-                name=""
-                id="name"
-                class="login-input signup-inputs"
-              />
-              <!--  -->
-              <label for="" class="form-label">Email Address</label>
-              <input
-                type="email"
-                name=""
-                id="email"
-                class="login-input signup-inputs"
-              />
-              <!--  -->
-              <label for="" class="form-label">Password</label>
-              <input
-                type="password"
-                name=""
-                id="password"
-                class="login-input signup-inputs"
-              />
-              <!--  -->
-              <div class="checkbox">
-                <input type="checkbox" name="" id="checkbox2" />
-                <label for="checkbox2" class="login-remember"
-                  >Send me occasional email updates</label
-                >
-              </div>
-              <div class="login-with login-btn-div" style="padding: 0">
-                <a href="#" class="login-btn user-choice-btn backBtn">
-                  <i
-                    class="fa-solid fa-angles-left"
-                    style="margin-right: 5px"
-                  ></i
-                  >Back
-                </a>
-                <a href="#" class="signup-btn user-choice-btn">Login</a>
-              </div>
-            </form>
-          </ul>
+
           <!--  -->
         </div>
       </div>
-
-      <!--  -->
 
       <!--  -->
     </nav>
 
     <!-- ---- --- Section 01 --- ---- -->
 
-    <section id="Home">
+    <section id="home">
       <div class="home">
         <div class="get">
           <div class="app-store store">
@@ -469,101 +468,103 @@
     <!-- --- End --- -->
 
     <!-- ---- --- Footer --- ---- -->
+    <section id="newsletter">
+      <footer>
+        <div id="footer">
+          <div class="footer">
+            <!--  -->
+            <div class="mail-contact">
+              <p class="mail-contact-heading">
+                Join Our Mailing List To Receive The News & Latest Trends
+              </p>
 
-    <footer>
-      <div id="footer">
-        <div class="footer">
-          <!--  -->
-          <div class="mail-contact">
-            <p class="mail-contact-heading">
-              Join Our Mailing List To Receive The News & Latest Trends
-            </p>
-
-            <form>
-              <div class="footer-form">
-                <input
-                  type="email"
-                  name=""
-                  id="footer-email"
-                  placeholder="Email Address..."
-                  required
-                />
-                <button type="submit">
-                  Subscribe Now <i class="fa-solid fa-angle-right"></i>
-                </button>
-              </div>
-            </form>
-          </div>
-
-          <!-- / -->
-
-          <!--  -->
-
-          <div class="footer-detail d-flex">
-            <!-- // -->
-            <div class="footer-page footer-contact-us d-flex">
-              <p class="contact-title">Contact Us</p>
-              <span class="contact-txt footer-anchor">
-                Rio de Janeiro - RJ, 22795-008, Brazil
-              </span>
-              <a href="#" class="footer-anchor contact-txt">010-020-0340</a>
-              <a href="#" class="footer-anchor contact-txt">info@company.co</a>
+              <form>
+                <div class="footer-form">
+                  <input
+                    type="email"
+                    name=""
+                    id="footer-email"
+                    placeholder="Email Address..."
+                    required
+                  />
+                  <button type="submit">
+                    Subscribe Now <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+              </form>
             </div>
-            <!-- // -->
-            <div class="footer-page footer-about-us">
-              <div>
-                <p class="contact-title">About Us</p>
-                <a href="#" class="footer-anchor">Home</a>
-                <a href="#" class="footer-anchor">Services</a>
-                <a href="#" class="footer-anchor">About</a>
-                <a href="#" class="footer-anchor">Testimonials</a>
-                <a href="#" class="footer-anchor">Pricing</a>
+
+            <!-- / -->
+
+            <!--  -->
+
+            <div class="footer-detail d-flex">
+              <!-- // -->
+              <div class="footer-page footer-contact-us d-flex">
+                <p class="contact-title">Contact Us</p>
+                <span class="contact-txt footer-anchor">
+                  Rio de Janeiro - RJ, 22795-008, Brazil
+                </span>
+                <a href="#" class="footer-anchor contact-txt">010-020-0340</a>
+                <a href="#" class="footer-anchor contact-txt"
+                  >info@company.co</a
+                >
               </div>
-              <div style="margin-top: 65px">
-                <a href="#" class="footer-anchor">About</a>
-                <a href="#" class="footer-anchor">Testimonials</a>
-                <a href="#" class="footer-anchor">Pricing</a>
+              <!-- // -->
+              <div class="footer-page footer-about-us">
+                <div>
+                  <p class="contact-title">About Us</p>
+                  <a href="#" class="footer-anchor">Home</a>
+                  <a href="#" class="footer-anchor">Services</a>
+                  <a href="#" class="footer-anchor">About</a>
+                  <a href="#" class="footer-anchor">Testimonials</a>
+                  <a href="#" class="footer-anchor">Pricing</a>
+                </div>
+                <div style="margin-top: 65px" class="m-top">
+                  <a href="#" class="footer-anchor">About</a>
+                  <a href="#" class="footer-anchor">Testimonials</a>
+                  <a href="#" class="footer-anchor">Pricing</a>
+                </div>
               </div>
+              <!-- // -->
+              <div class="footer-page footer-usefull-link">
+                <div>
+                  <p class="contact-title">Usefull link</p>
+                  <a href="#" class="footer-anchor">Free Apps </a>
+                  <a href="#" class="footer-anchor">App Engine</a>
+                  <a href="#" class="footer-anchor">Programming</a>
+                  <a href="#" class="footer-anchor">Development</a>
+                  <a href="#" class="footer-anchor">App News</a>
+                </div>
+                <div style="margin-top: 65px" class="m-top">
+                  <a href="#" class="footer-anchor">App Dev Team</a>
+                  <a href="#" class="footer-anchor">Digital Web</a>
+                  <a href="#" class="footer-anchor">Normal Apps</a>
+                </div>
+              </div>
+              <!-- // -->
+              <div class="footer-page footer-about-company">
+                <p class="contact-title">About our Company</p>
+                <img src="img/white-logo.png" alt="" class="footer-logo" />
+                <p class="para f-about-company-txt">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore.
+                </p>
+              </div>
+              <!-- End // -->
             </div>
-            <!-- // -->
-            <div class="footer-page footer-usefull-link">
-              <div>
-                <p class="contact-title">Usefull link</p>
-                <a href="#" class="footer-anchor">Free Apps </a>
-                <a href="#" class="footer-anchor">App Engine</a>
-                <a href="#" class="footer-anchor">Programming</a>
-                <a href="#" class="footer-anchor">Development</a>
-                <a href="#" class="footer-anchor">App News</a>
-              </div>
-              <div style="margin-top: 65px">
-                <a href="#" class="footer-anchor">App Dev Team</a>
-                <a href="#" class="footer-anchor">Digital Web</a>
-                <a href="#" class="footer-anchor">Normal Apps</a>
-              </div>
-            </div>
-            <!-- // -->
-            <div class="footer-page footer-about-company">
-              <p class="contact-title">About our Company</p>
-              <img src="img/white-logo.png" alt="" class="footer-logo" />
-              <p class="para f-about-company-txt">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
+
+            <!--  -->
+            <div>
+              <p class="copyright">
+                Copyright &copy; 2022 Chain App Dev Company. All Right Reserved
               </p>
             </div>
-            <!-- End // -->
+            <!-- / -->
           </div>
-
-          <!--  -->
-          <div>
-            <p class="copyright">
-              Copyright &copy; 2022 Chain App Dev Company. All Right Reserved
-            </p>
-          </div>
-          <!-- / -->
         </div>
-      </div>
-    </footer>
-
+      </footer>
+    </section>
     <!-- ----- ----- Java Script  ----- ----- -->
 
     <script src="chain.js"></script>

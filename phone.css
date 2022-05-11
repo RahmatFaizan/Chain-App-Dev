@@ -1,5 +1,22 @@
 /*  */
 
+@media only screen and (max-width: 1200px) {
+  .footer-contact-us {
+    width: 235px;
+  }
+
+  .footer-page {
+    width: 222px;
+  }
+
+  .mail-contact-heading {
+    width: 470px;
+  }
+}
+
+/* 
+ */
+
 @media only screen and (max-width: 1150px) {
   .navbar-img {
     margin: 1px 0 0 0px;
@@ -86,7 +103,31 @@
     .detail {
       padding: 10px 15px 50px 15px;
     }
+
+    .footer {
+      width: 700px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .footer-detail {
+      display: block;
+    }
+
+    .footer-page {
+      width: 100%;
+    }
+
+    #footer-email {
+      width: 50%;
+      margin-left: 0;
+    }
+
+    .footer-form button[type="submit"] {
+      width: 50%;
+    }
   }
+  /*  */
 }
 
 /* ---------- ------------ ------------- --------- */
@@ -155,6 +196,10 @@
   }
 
   /* ---- --- Pricing Section --- ---- */
+
+  .pricing {
+    padding-top: 0;
+  }
 
   .order-detail {
     margin-top: 80px;
@@ -247,6 +292,61 @@
   .order-heading {
     padding: 0 12px;
   }
+
+  /* --- Footer --- */
+
+  .footer {
+    width: 500px;
+    padding: 144px 15px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .mail-contact-heading {
+    color: rgb(16, 16, 17);
+  }
+
+  .footer-form button[type="submit"] {
+    background-color: #fff;
+    color: #4b8ef1;
+  }
+
+  #footer-email {
+    padding: 13px 25px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: rgb(190, 190, 190);
+    box-sizing: border-box;
+    margin-right: 20px;
+  }
+
+  #footer-email::placeholder {
+    color: rgb(16, 16, 17);
+  }
+
+  .footer-form button[type="submit"] {
+    width: 48%;
+  }
+
+  .footer-about-us,
+  .footer-usefull-link {
+    display: block;
+  }
+
+  :is(.footer-about-us, .footer-usefull-link) .m-top {
+    margin-top: 0 !important;
+  }
+
+  .footer-page {
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .footer-anchor,
+  .f-about-company-txt,
+  .copyright {
+    color: #eee;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -313,6 +413,33 @@
 
   .pricing-detail {
     width: 100%;
+  }
+
+  /* --- Footer --- */
+  .footer {
+    width: 100%;
+  }
+
+  .mail-contact-heading {
+    width: 100%;
+  }
+
+  .footer-form {
+    flex-direction: column;
+    position: relative;
+  }
+
+  #footer-email {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .footer-form button[type="submit"] {
+    width: 100%;
+  }
+
+  .copyright {
+    padding: 35px 0;
   }
 
   /* 

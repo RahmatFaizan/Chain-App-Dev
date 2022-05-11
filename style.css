@@ -8,6 +8,7 @@
   list-style: none;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .para {
@@ -29,6 +30,10 @@
   position: fixed;
   background-color: #fff;
   height: 80px;
+}
+
+.fixed-navbar .client-account {
+  top: 80px;
 }
 
 .navbar-img {
@@ -69,6 +74,16 @@
 
 .active {
   color: #4b8ef1;
+}
+
+.fixed-navbar .active {
+  color: #2a2a2a;
+}
+
+.fixed-navbar .highlight-navbar-btn {
+  color: #4b8ef1;
+  text-decoration: underline;
+  text-underline-offset: 32px;
 }
 
 .sign-btn {
@@ -132,6 +147,10 @@
 
 .menu-btns:hover {
   background: #eee;
+}
+
+.menu ul li a.highlight-navbar-btn {
+  text-decoration: none;
 }
 
 .hamburger {
@@ -707,6 +726,10 @@
 
 /* ---- --- Pricing Card --- ---- */
 
+.pricing {
+  padding-top: 70px;
+}
+
 .pricing-plan-choice {
   justify-content: center;
   margin-top: 80px;
@@ -870,7 +893,7 @@
 #footer-email {
   border: none;
   outline: none;
-  width: 250px;
+  width: 210px;
   border-bottom: 1px solid black;
   padding: 10px 5px;
   font-size: 15px;
@@ -879,7 +902,7 @@
 }
 
 .footer-form button[type="submit"] {
-  padding: 12px 70px;
+  padding: 13px 45px;
   border-radius: 30px;
   border: 1px solid;
   font-size: 16px;

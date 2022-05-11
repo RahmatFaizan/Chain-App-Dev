@@ -85,3 +85,48 @@ Signupbtn1.addEventListener("click", () => {
 });
 
 //
+
+/* On scroll highlight Navigation btn */
+
+let allSection = document.querySelectorAll("section[id]");
+
+window.addEventListener("scroll", () => {
+  var current = "";
+  const scrollY = window.pageYOffset;
+  allSection.forEach((e) => {
+    const sectionHeight = e.offsetHeight;
+    const sectionTop = e.offsetTop - 100;
+    current = e.getAttribute("id");
+
+    /* ---- --- For Large screen --- ----*/
+
+    if (scrollY >= sectionTop && scrollY <= sectionHeight + sectionTop) {
+      document
+        .querySelector(`.navbar-navigation ul li a[href='#${current}']`)
+        .classList.add("highlight-navbar-btn");
+    } else {
+      document
+        .querySelector(`.navbar-navigation ul li a[href='#${current}']`)
+        .classList.remove("highlight-navbar-btn");
+    }
+
+    /* ---- --- For Small screen --- ----*/
+
+    if (scrollY >= sectionTop && scrollY <= sectionHeight + sectionTop) {
+      document
+        .querySelector(`.menu ul li a[href='#${current}']`)
+        .classList.add("highlight-navbar-btn");
+    } else {
+      document
+        .querySelector(`.menu ul li a[href='#${current}']`)
+        .classList.remove("highlight-navbar-btn");
+    }
+  });
+
+  //
+});
+
+// var current = "home";
+// // var nass = document.getElementsByTagName(`a[href="#${current}"]`);
+
+// console.log(nass);
