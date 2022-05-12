@@ -417,6 +417,17 @@
   margin: 62px 0 0 132px;
   box-sizing: border-box;
   padding-right: 22px;
+  /* 
+   */
+  transform: translate(-100%, 0);
+  opacity: 0;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.home-txt-animation {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 .home-heading {
@@ -457,6 +468,20 @@
   box-sizing: border-box;
   margin-left: 12px;
   display: block;
+  /* 
+   */
+  transform: translate(100%, 0);
+  opacity: 0;
+  transition: 1s;
+}
+
+.phone-image {
+  overflow: hidden;
+}
+
+.home-img-animate {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 /* ---- ---Services --- ---- */
@@ -474,10 +499,25 @@
   z-index: -1;
 }
 
+/* .s-animation {
+  position: relative;
+  height: 180px;
+} */
+
 .services-detail {
   width: 45%;
   margin: 0 auto;
   text-align: center;
+  /* 
+   */
+  transform: translate(0, -70%);
+  transition: 1s;
+  opacity: 0;
+}
+
+.animate {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 .service-heading {

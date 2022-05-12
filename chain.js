@@ -124,9 +124,29 @@ window.addEventListener("scroll", () => {
   });
 
   //
+
+  /* On Scroll Services Div Animate*/
+
+  var serviceDiv = document.querySelector(".services-detail");
+
+  if (window.scrollY >= serviceDiv.offsetTop - 550) {
+    serviceDiv.classList.add("animate");
+  } else {
+  }
+  //
 });
 
-// var current = "home";
-// // var nass = document.getElementsByTagName(`a[href="#${current}"]`);
+//
 
-// console.log(nass);
+/* Home Image animation from left to right */
+
+document.querySelector(".store-detail").classList.add("home-txt-animation");
+if (window.innerWidth <= 1000) {
+  window.addEventListener("scroll", () => {
+    if (window.scrollY >= 120) {
+      document.querySelector(".home-img").classList.add("home-img-animate");
+    }
+  });
+} else {
+  document.querySelector(".home-img").classList.add("home-img-animate");
+}
