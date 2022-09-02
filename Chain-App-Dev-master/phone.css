@@ -1,0 +1,463 @@
+/*  */
+
+@media only screen and (min-width: 1300px) {
+  .get::before {
+    width: 100%;
+    background-size: auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footer-contact-us {
+    width: 235px;
+  }
+
+  .footer-page {
+    width: 222px;
+  }
+
+  .mail-contact-heading {
+    width: 470px;
+  }
+}
+
+/* 
+ */
+
+@media only screen and (max-width: 1150px) {
+  .navbar-img {
+    margin: 1px 0 0 0px;
+  }
+
+  .header {
+    width: 960px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    /*  */
+
+    .get::before {
+      display: none;
+    }
+
+    .get {
+      display: block;
+      padding-top: 225px;
+      height: auto;
+    }
+
+    .store {
+      width: 100%;
+    }
+
+    .home-heading {
+      display: inline;
+    }
+
+    .store-detail {
+      width: 73%;
+      margin: 0 auto;
+      padding: 0 15px;
+      text-align: center;
+    }
+
+    .home-para {
+      color: rgba(0, 0, 0, 0.35);
+    }
+
+    .home-img {
+      display: block;
+      margin: 40px auto 0 auto;
+      width: 70%;
+    }
+    /* ----  --- Card ---  ---- */
+    .card {
+      display: block;
+    }
+
+    .service-card {
+      width: 700px;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    .service-card:hover {
+      background-position: top, right;
+    }
+
+    .service-card:hover
+      :is(.service-icon-1, .service-icon-2, .service-icon-3, .service-icon-4) {
+      background-position: center;
+    }
+
+    .service-card-icon {
+      background-position: center;
+    }
+
+    .card::after {
+      bottom: -335px;
+    }
+
+    /* ---- --- Services --- ---- */
+
+    .services-detail {
+      width: 98%;
+    }
+
+    .service-para {
+      width: 50%;
+    }
+    .detail {
+      padding: 10px 15px 50px 15px;
+    }
+
+    .footer {
+      width: 700px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .footer-detail {
+      display: block;
+    }
+
+    .footer-page {
+      width: 100%;
+    }
+
+    #footer-email {
+      width: 50%;
+      margin-left: 0;
+    }
+
+    .footer-form button[type="submit"] {
+      width: 50%;
+    }
+  }
+  /*  */
+}
+
+/* ---------- ------------ ------------- --------- */
+
+@media only screen and (max-width: 990px) {
+  .header {
+    justify-content: center;
+  }
+
+  .navbar-btns {
+    margin: 0 14px;
+  }
+
+  .sign-btn {
+    margin: 0px 10px 0 18px;
+  }
+
+  .navbar-img {
+    margin: 1px 20px 0 -5px;
+  }
+
+  .header {
+    width: 95%;
+  }
+
+  /* ---- --- About --- ---- */
+
+  .about-us {
+    display: block;
+  }
+
+  .about-detail {
+    width: 100%;
+  }
+
+  .about-pic {
+    width: 100%;
+  }
+
+  .about-us::before {
+    display: none;
+  }
+
+  .detail {
+    width: 722px;
+    margin: 0 auto;
+    padding: 10px 20px 50px 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .maintance {
+    margin: 35px 0 25px 0;
+    display: block;
+  }
+
+  .co-development {
+    width: 679px;
+    margin: 30px auto;
+  }
+
+  .about-img {
+    width: calc(74% - 10px);
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* ---- --- Pricing Section --- ---- */
+
+  .pricing {
+    padding-top: 0;
+  }
+
+  .order-detail {
+    margin-top: 80px;
+  }
+
+  .pricing-plan-choice {
+    display: block;
+  }
+
+  .pricing-detail {
+    display: block;
+    width: 700px;
+    margin: 30px auto;
+  }
+
+  .pricing-detail-2::after {
+    height: 25%;
+    width: 440px;
+    background-size: cover;
+  }
+}
+
+/*  --------- --------- ---------- --------- */
+
+@media only screen and (max-width: 760px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .navbar-img {
+    width: calc(32% - 10px);
+    text-align: end;
+  }
+
+  .navbar-logo {
+    margin-left: 50px;
+  }
+
+  .hamburger {
+    margin-right: 42px;
+  }
+
+  .navbar-navigation {
+    display: none;
+  }
+
+  .smallScreen-menu {
+    display: block;
+  }
+
+  /* Card */
+  .service-card {
+    width: 460px;
+  }
+
+  .service-card:hover
+    :is(.service-icon-1, .service-icon-2, .service-icon-3, .service-icon-4) {
+    background-position: right;
+  }
+
+  .service-card-icon {
+    background-position: right;
+  }
+
+  .service-para {
+    width: 65%;
+  }
+
+  /* ---- --- About --- ---- */
+
+  .co-development {
+    width: 515px;
+  }
+
+  .detail {
+    width: 530px;
+    padding: 10px 0px 50px 0px;
+  }
+
+  /* --- Pricing  --- */
+
+  .pricing-plan-choice {
+    padding: 0 12px;
+  }
+
+  .pricing-detail {
+    width: 515px;
+  }
+
+  .order-heading {
+    padding: 0 12px;
+  }
+
+  /* --- Footer --- */
+
+  .footer {
+    width: 500px;
+    padding: 144px 15px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .mail-contact-heading {
+    color: rgb(16, 16, 17);
+  }
+
+  .footer-form button[type="submit"] {
+    background-color: #fff;
+    color: #4b8ef1;
+  }
+
+  #footer-email {
+    padding: 13px 25px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: rgb(190, 190, 190);
+    box-sizing: border-box;
+    margin-right: 20px;
+  }
+
+  #footer-email::placeholder {
+    color: rgb(16, 16, 17);
+  }
+
+  .footer-form button[type="submit"] {
+    width: 48%;
+  }
+
+  .footer-about-us,
+  .footer-usefull-link {
+    display: block;
+  }
+
+  :is(.footer-about-us, .footer-usefull-link) .m-top {
+    margin-top: 0 !important;
+  }
+
+  .footer-page {
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .footer-anchor,
+  .f-about-company-txt,
+  .copyright {
+    color: #eee;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .menu-ul {
+    min-width: 100%;
+  }
+
+  .store-detail {
+    width: 100%;
+  }
+
+  .header {
+    width: 90vw;
+  }
+
+  .hamburger {
+    margin-right: 25px;
+  }
+
+  .navbar-img {
+    width: auto;
+    text-align: end;
+    margin: 0;
+  }
+
+  .navbar-logo {
+    margin-left: 20px;
+  }
+
+  .home-btns {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .h-btns {
+    margin: 12px 0px 0 0;
+  }
+
+  .home-img {
+    width: 95%;
+  }
+
+  .card {
+    padding: 0 12px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  /* ---- --- About --- ---- */
+  .detail {
+    width: 100%;
+    padding: 10px 15px 50px 15px;
+  }
+
+  .co-development {
+    width: 100%;
+  }
+
+  /* --- Pricing --- */
+
+  .pricing-detail {
+    width: 100%;
+  }
+
+  /* --- Footer --- */
+  .footer {
+    width: 100%;
+  }
+
+  .mail-contact-heading {
+    width: 100%;
+  }
+
+  .footer-form {
+    flex-direction: column;
+    position: relative;
+  }
+
+  #footer-email {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .footer-form button[type="submit"] {
+    width: 100%;
+  }
+
+  .copyright {
+    padding: 35px 0;
+  }
+
+  /* 
+   */
+
+  @media only screen and (max-width: 400px) {
+    .client-account {
+      transform: translate(-50%, 1px);
+      width: 300px;
+    }
+    .services-pic {
+      padding: 60px;
+    }
+  }
+}
