@@ -401,7 +401,7 @@
   top: 0;
   left: 0;
   background: url(img/slider-left-dec.png) no-repeat;
-  width: 915px;
+  width: 100%;
   background-size: cover;
   height: 100%;
   z-index: -1;
